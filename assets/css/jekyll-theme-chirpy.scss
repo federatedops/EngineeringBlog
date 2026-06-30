@@ -13,3 +13,25 @@
 ';
 
 /* append your custom style below */
+
+/* Sidebar logo: show the full Federated logo (it already has its own white
+   background) instead of the theme's cropped circular avatar. No card chrome —
+   just the logo. */
+#sidebar #avatar {
+  width: 80%;
+  max-width: 200px;
+  height: auto;
+  overflow: visible;
+  border-radius: 6px;
+  box-shadow: none;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+
+    &:hover {
+      transform: none; /* the wide logo shouldn't zoom-crop on hover */
+    }
+  }
+}

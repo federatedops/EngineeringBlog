@@ -14,7 +14,7 @@
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66 66 66);
   --blockquote-text-color: #868686;
-  --link-color: rgb(138 180 248);
+  --link-color: #5c9ce6; /* Federated blue, lightened for dark mode */
   --link-underline-color: rgb(82 108 150);
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
@@ -37,16 +37,16 @@
   --menu-highlight-bg: rgb(90 91 92 / 12%);
 
   /* Sidebar */
-  --site-title-color: #717070;
+  --site-title-color: #6aa9e9; /* Federated blue, lightened for dark mode */
   --site-subtitle-color: #868686;
   --sidebar-bg: #1e1e1e;
   --sidebar-border-color: #292929;
   --sidebar-muted-color: #868686;
-  --sidebar-active-color: rgb(255 255 255 / 95%);
+  --sidebar-active-color: #7fb2ee; /* Federated blue: active + hovered nav */
   --sidebar-hover-bg: #262626;
   --sidebar-btn-bg: #232328;
   --sidebar-btn-color: #787878;
-  --avatar-border-color: rgb(206 206 206 / 90%);
+  --avatar-border-color: #1f6fc4; /* blue ring echoes the logo's border */
 
   /* Topbar */
   --topbar-bg: rgb(27 27 30 / 64%);
@@ -61,7 +61,7 @@
   --btn-paginator-hover-color: #2e2e2e;
 
   /* Posts */
-  --toc-highlight: rgb(116 178 243);
+  --toc-highlight: #6aa9e9; /* Federated blue */
   --toc-popup-border-color: #373737;
   --tag-hover: rgb(43 56 62);
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
@@ -69,7 +69,7 @@
   --tb-border-color: var(--tb-odd-bg);
   --footnote-target-bg: rgb(63 81 181);
   --btn-share-color: #6c757d;
-  --btn-share-hover-color: #bfc1ca;
+  --btn-share-hover-color: #f7931e; /* Federated orange accent */
   --card-bg: #1e1e1e;
   --card-hover-bg: #464d51;
   --card-shadow:
