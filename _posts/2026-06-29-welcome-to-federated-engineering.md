@@ -7,7 +7,6 @@ author: federated
 date: 2026-06-29 09:00:00 -0400
 categories: [Announcements]
 tags: [welcome]
-pin: true
 ---
 
 Welcome to the **Federated Auto Parts** engineering blog.
