@@ -39,9 +39,11 @@ social:
   email: # add a team email if you want the email contact icon to appear
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
-    # The first element serves as the copyright owner's link
+    # The first element serves as the copyright owner's link (shown in the footer).
+    # These also populate the `sameAs` array in the site's JSON-LD for SEO.
+    - https://www.federatedautoparts.com
+    - https://www.federatedcc.com
     - https://github.com/federatedops
-    # Uncomment below to add more social links
     # - https://www.linkedin.com/company/federated-auto-parts
 
 # Site Verification Settings
